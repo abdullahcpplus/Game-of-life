@@ -1,4 +1,4 @@
-# Game of life visuals  Explation
+# Game of life visuals  Explanation
 This is not a game this is only explation of the thoery of British mathematician John Horton Conway. According to canway every cell live or die according to these roles
 
 1) If any live cell have less than two or more than 3 live neibhours cells it will die in next generation.
