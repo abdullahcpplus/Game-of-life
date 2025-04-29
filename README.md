@@ -1,29 +1,18 @@
-# Raylib-CPP-Starter-Template-for-VSCODE-V2
-Raylib C++ Starter Template for Visual Studio Code on Windows.
-This demo project contains a bouncing ball raylib example program.
-It works with raylib version 5.0. Tested on both Windows 10 and Windows 11.
+# Game of life visuals  Explation
+This is not a game this is only explation of the thoery of British mathematician John Horton Conway. According to canway every cell live or die according to these roles
 
-# How to use this template
-1. Double click on the main.code-workspace file. This will open the template in VS Code.
-2. From the Explorer Window of VS Code navigate to the src folder and double click on the main.cpp file.
-3. Press F5 on the keyboard to compile and run the program.
+1) If any live cell have less than two or more than 3 live neibhours cells it will die in next generation.
+2) If any live cell with two or three live neighbors lives on to the next generation.
+3) Any dead cell with three live neighbors becomes live in next generation.
 
-# What's changed
-The template now uses folders for better organizion of the files. So, all the source code now lives in the src folder.
+According to these rules this software is made with the help of raylib library. Raylib is a librarythat is used to make games.
 
-# Video Tutorial
+Here's some sereenshots.
 
-<p align="center">
-  <img src="preview.jpg" alt="" width="800">
-</p>
+![ab1](https://github.com/user-attachments/assets/b00e16a8-1a8a-4a96-b1b5-c60fb38626c0)
 
-<p align="center">
-🎥 <a href="https://www.youtube.com/watch?v=PaAcVk5jUd8">Video Tutorial on YouTube</a>
-</p>
+![ab2](https://github.com/user-attachments/assets/6e40cd57-bbd8-448d-802e-75ef963e9dfc)
 
-<br>
-<br>
-<p align="center">
-| 📺 <a href="https://www.youtube.com/channel/UC3ivOTE5EgpmF2DHLBmWIWg">My YouTube Channel</a>
-| 🌍 <a href="http://www.programmingwithnick.com">My Website</a> | <br>
-</p>
+![ab3](https://github.com/user-attachments/assets/fb93b4bf-7e6c-4f95-b329-022f73870b19)
+
+![ab4](https://github.com/user-attachments/assets/86f31c8a-0cf7-47c1-be30-4fa89e8e8d26)
